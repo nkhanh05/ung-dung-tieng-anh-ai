@@ -11,4 +11,7 @@ Hướng dẫn kết nối với cơ sở dữ liệu:
 - Trong quá trình cần đảm bảo cơ sở dữ liệu được mở trước sau đó mở server rồi mới chạy demo
 - Cần tạo thêm một Login có khả năng đọc, thêm , xóa các thông tin trong database của mình, cần cho phép mở cổng TCP/IP
 - Thay đổi đường dẫn tới hệ quản trị thông qua file server.js
+- file translate.dart chứa hàm call API của Google Translate để dịch từ tiếng Anh sang tiếng Việt sau đó trả về dạng String
+- file pronunciation.dart chứa hàm nhận một từ làm input sau đó đọc từ đó ra, import hàm này và đặt làm action cho các button nếu cần
+- 
   
